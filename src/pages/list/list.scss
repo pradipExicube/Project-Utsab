@@ -1,0 +1,36 @@
+page-list {
+    .custom-container{
+        .circle-main-div{
+            display: flex;
+            flex-direction: row;
+            padding: 2vw 0;
+            border: 1px solid rgb(150, 150, 150) ;
+            margin: 0 5vw;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            .circle-sub-div{
+                padding: 1vw 0 0 0;
+                width: 34%;
+            }
+        }
+    
+        .custom-div-two{
+            display: flex; flex-direction: column;width:100%;padding:0 3vw;
+            .custom-div-two-d1{
+                display: flex; flex-direction: row;justify-content: space-between;
+                .custom-div-two-d1-sub-1{
+                    font-size: 16px;
+                    white-space: normal;
+                    font-weight: bold;
+                    letter-spacing: 1.2px;padding-bottom: 1vw
+                }
+                .custom-div-two-d1-sub-2{
+                    font-size: 12px;
+                    letter-spacing: 1.2px;padding-bottom: 1vw
+                }
+            }
+        }
+    
+    }
+}

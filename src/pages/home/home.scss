@@ -1,3 +1,31 @@
 page-home {
-
+.custom-content{
+    padding: 0 !important; margin: 0 !important;
+    .custom-title{
+        font-size: 16px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        padding: 10px 10px 5px 10px;
+    }
+    .scrollmenu {
+        overflow: auto;
+        white-space: nowrap;
+        .div-class {
+            display: inline-block;
+            height:30vw;
+            width:33vw;
+            background:red;
+            margin:2vw 1vw 2vw 1vw;
+            border-radius:5px
+          }
+      }
+      .div-class-sub {
+        display: inline-block;
+        height:48vw;
+        width:48vw;
+        background:red;
+        margin:1vw 1vw 1vw 1vw;
+        border-radius:5px
+      }
+}
 }

@@ -1,0 +1,46 @@
+page-details {
+    .custom-content{
+        .custom-slide-div{
+            height:35vh; 
+            width:100%
+        }
+        .main-div{
+            padding:15px;
+            .main-div-title{
+                font-size: 18px;
+                font-weight: bold;
+                letter-spacing: 1px;
+                padding-bottom: 11px;
+            }
+            .main-div-desc{
+                letter-spacing: 1px;
+                line-height: 20px;
+                font-weight: 400;
+                font-size: 14px;
+                padding-bottom: 10px;
+            }
+            .main-div-theme{
+                font-weight: bold;
+                letter-spacing: 1px;
+                font-size: 14px;padding-bottom: 10px;
+            }
+        }
+    }
+    .custom-footer{
+        .footer-main{
+            height:50px;
+            width:100%;
+            background:#488aff;
+            display: flex;
+            flex-direction:column; 
+            justify-content: center;
+            .footer-text{
+                text-align:center; 
+                font-size:16px;
+                font-weight:bold;
+                letter-spacing:1px;
+                color:white;
+            }
+        }
+    }
+}
